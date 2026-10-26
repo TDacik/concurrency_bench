@@ -1,0 +1,23 @@
+# Package containing benchexec tool info modules for selected concurrency analysers.
+#
+# SPDX-FileCopyrightText: 2026 Tomas Dacik <idacik@fit.vut.cz>
+# SPDX-License-Identifier: MIT
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["concurrency_analysers"]
+package-dir = { "concurrency_analysers" = "." }
+
+[project]
+name = "concurrency_analysers"
+version = "1.0.0"
+authors = [{name = "Tomáš Dacík", email="idacik@fit.vut.cz"}]
+description = "Benchexec tool info modules for selected concurrency analysers."
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = [
+  "benchexec>=3.0"
+]
