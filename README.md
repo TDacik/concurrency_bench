@@ -14,7 +14,7 @@ tool info modules of analysers:
 
 For convenience, paths to executables of analysers may be set in `config.yaml`.
 If a path is missing, provided tool info modules will fall back to the method
-used by BenchExec to locate executables and you may have to specify them using
+used by BenchExec to locate executables and you may need to specify them using
 the `--tool-directory` argument when running BenchExec.
 
 ## Running benchmarks
@@ -22,7 +22,7 @@ the `--tool-directory` argument when running BenchExec.
 Run the following command:
 
 ```shellSession
-benchexec [argument] benchmark-defs/.../def.xml
+benchexec [arguments] benchmark-defs/.../def.xml
 ```
 
 It may be useful to provide the `-N n` argument to run `n` benchmarks in parallel.
