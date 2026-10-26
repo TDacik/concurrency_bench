@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE benchmark PUBLIC "+//IDN sosy-lab.org//DTD BenchExec benchmark 1.18//EN" "https://www.sosy-lab.org/benchexec/benchmark-1.18.dtd">
+
+<!-- Uncomment to use Moirae tool info module from benchexec -->
+<!-- <benchmark tool="moirae" timelimit="900s" memlimit="2GB" cpuCores="1" threads="1"> -->
+
+<benchmark tool="concurrency_analysers.moirae" timelimit="900s" memlimit="2GB" cpuCores="1" threads="1">
+
+<option name="--sv-comp"/>
+
+<rundefinition/>
+
+<tasks>
+  <includesfile>../../benchmarks/sv-comp/c/Concurrency.set</includesfile>
+  <propertyfile>../../benchmarks/sv-comp/c/properties/no-data-race.prp</propertyfile>
+</tasks>
+
+<columns>
+  <column title="Reason unknown">Reason for unknown verdict</column>
+</columns>
+
+</benchmark>

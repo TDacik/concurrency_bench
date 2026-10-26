@@ -1,8 +1,8 @@
 # This file is part of BenchExec, a framework for reliable benchmarking:
 # https://github.com/sosy-lab/benchexec
 #
-# This file is based on the tool info from benchexec, but allows some
-# experimental changes and additional statistics.
+# This file is based on the tool info from benchexec, but allows loading
+# the tool directory from config.yaml and tracking of additional statistics.
 #
 # SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
 # SPDX-FileCopyrightText: 2024-2026 Tomas Dacik <idacik@fit.vut.cz>
